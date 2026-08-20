@@ -1,0 +1,14 @@
+[package]
+name = "Purs_Data_Monoid_Endo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+purust_core = { path = "../purust_core" }
+perceus_ptr = { path = "/Users/0x1/Documents/htdocs/purust/purust/tests/runtime/perceus_ptr" }
+fancy-regex = "0.13"
+Purs_Control_Category = { path = "../Purs_Control_Category" }
+Purs_Control_Semigroupoid = { path = "../Purs_Control_Semigroupoid" }
+Purs_Data_Monoid = { path = "../Purs_Data_Monoid" }
+Purs_Data_Semigroup = { path = "../Purs_Data_Semigroup" }
+Purs_Data_Show = { path = "../Purs_Data_Show" }

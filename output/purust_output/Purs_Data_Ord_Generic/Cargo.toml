@@ -1,0 +1,12 @@
+[package]
+name = "Purs_Data_Ord_Generic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+purust_core = { path = "../purust_core" }
+perceus_ptr = { path = "/Users/0x1/Documents/htdocs/purust/purust/tests/runtime/perceus_ptr" }
+fancy-regex = "0.13"
+Purs_Data_Generic_Rep = { path = "../Purs_Data_Generic_Rep" }
+Purs_Data_Ord = { path = "../Purs_Data_Ord" }
+Purs_Data_Ordering = { path = "../Purs_Data_Ordering" }

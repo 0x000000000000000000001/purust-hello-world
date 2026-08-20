@@ -1,0 +1,12 @@
+[package]
+name = "Purs_Data_DivisionRing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+purust_core = { path = "../purust_core" }
+perceus_ptr = { path = "/Users/0x1/Documents/htdocs/purust/purust/tests/runtime/perceus_ptr" }
+fancy-regex = "0.13"
+Purs_Data_Ring = { path = "../Purs_Data_Ring" }
+Purs_Data_EuclideanRing = { path = "../Purs_Data_EuclideanRing" }
+Purs_Data_Semiring = { path = "../Purs_Data_Semiring" }

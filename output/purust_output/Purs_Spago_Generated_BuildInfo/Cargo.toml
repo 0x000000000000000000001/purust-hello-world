@@ -1,0 +1,9 @@
+[package]
+name = "Purs_Spago_Generated_BuildInfo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+purust_core = { path = "../purust_core" }
+perceus_ptr = { path = "/Users/0x1/Documents/htdocs/purust/purust/tests/runtime/perceus_ptr" }
+fancy-regex = "0.13"

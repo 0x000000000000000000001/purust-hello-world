@@ -1,0 +1,11 @@
+[package]
+name = "Purs_Effect_Class"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+purust_core = { path = "../purust_core" }
+perceus_ptr = { path = "/Users/0x1/Documents/htdocs/purust/purust/tests/runtime/perceus_ptr" }
+fancy-regex = "0.13"
+Purs_Effect = { path = "../Purs_Effect" }
+Purs_Control_Category = { path = "../Purs_Control_Category" }
